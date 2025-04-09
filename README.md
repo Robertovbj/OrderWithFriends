@@ -112,3 +112,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 [Roberto Barbosa] - roberto.rvbj@gmail.com
 
 Project Link: [https://github.com/Robertovbj/OrderWithFriends](https://github.com/Robertovbj/OrderWithFriends)
+
+## Support the Project
+
+If you find this tool helpful, you can support its development by buying me a coffee:
+
+[![Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://Ko-fi.com/robertorvbj)
