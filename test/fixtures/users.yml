@@ -1,0 +1,61 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+clarissa:
+  name: Clarissa
+  login: clarissa.example
+  password_digest: <%= BCrypt::Password.create('MySecretPass1') %>
+  profile_picture: null
+
+george:
+  name: George Martin
+  login: george.martin
+  password_digest: <%= BCrypt::Password.create('GeoTheMart1n') %>
+  profile_picture: george.jpg
+
+emily:
+  name: Emily Johnson
+  login: emily.johnson
+  password_digest: <%= BCrypt::Password.create('Em1lyJ0hn$on') %>
+  profile_picture: emily.jpg
+
+david:
+  name: David Wilson
+  login: david.wilson
+  password_digest: <%= BCrypt::Password.create('DavidW1ls0n!') %>
+  profile_picture: null
+
+sophia:
+  name: Sophia Chen
+  login: sophia.chen
+  password_digest: <%= BCrypt::Password.create('S0ph1aCh3n') %>
+  profile_picture: sophia.jpg
+
+michael:
+  name: Michael Brown
+  login: michael.brown
+  password_digest: <%= BCrypt::Password.create('Br0wnM1ke!') %>
+  profile_picture: null
+
+olivia:
+  name: Olivia Garcia
+  login: olivia.garcia
+  password_digest: <%= BCrypt::Password.create('Ol1v1a#2023') %>
+  profile_picture: olivia.jpg
+
+james:
+  name: James Smith
+  login: james.smith
+  password_digest: <%= BCrypt::Password.create('Sm1thJ@me$') %>
+  profile_picture: null
+
+emma:
+  name: Emma Taylor
+  login: emma.taylor
+  password_digest: <%= BCrypt::Password.create('T@yl0rEmma') %>
+  profile_picture: emma.jpg
+
+robert:
+  name: Robert Lee
+  login: robert.lee
+  password_digest: <%= BCrypt::Password.create('R0b3rtL33!') %>
+  profile_picture: null

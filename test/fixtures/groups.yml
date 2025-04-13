@@ -1,0 +1,26 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+company:
+  name: Company Legis
+  owner: clarissa
+  is_public: false
+
+friends_of_the_earth:
+  name: Friends of the Earth
+  owner: george
+  is_public: false
+
+book_club:
+  name: Book Club
+  owner: emily
+  is_public: true
+
+gaming_community:
+  name: Gaming Community
+  owner: sophia
+  is_public: false
+
+hiking_enthusiasts:
+  name: Hiking Enthusiasts
+  owner: olivia
+  is_public: true

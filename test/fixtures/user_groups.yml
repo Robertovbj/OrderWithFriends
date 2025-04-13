@@ -1,0 +1,142 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+user_group_1:
+  group: company
+  user: clarissa
+  group_role: owner
+
+user_group_2:
+  group: company
+  user: george
+  group_role: admin
+
+user_group_3:
+  group: company
+  user: emily
+  group_role: member
+
+user_group_4:
+  group: friends_of_the_earth
+  user: george
+  group_role: owner
+
+user_group_5:
+  group: friends_of_the_earth
+  user: clarissa
+  group_role: member
+
+user_group_6:
+  group: friends_of_the_earth
+  user: david
+  group_role: admin
+
+user_group_7:
+  group: book_club
+  user: emily
+  group_role: owner
+
+user_group_8:
+  group: book_club
+  user: sophia
+  group_role: admin
+
+user_group_9:
+  group: book_club
+  user: michael
+  group_role: member
+
+user_group_10:
+  group: gaming_community
+  user: sophia
+  group_role: owner
+
+user_group_11:
+  group: gaming_community
+  user: emily
+  group_role: member
+
+user_group_12:
+  group: hiking_enthusiasts
+  user: olivia
+  group_role: owner
+
+user_group_13:
+  group: hiking_enthusiasts
+  user: george
+  group_role: member
+
+user_group_14:
+  group: hiking_enthusiasts
+  user: clarissa
+  group_role: admin
+
+user_group_15:
+  group: gaming_community
+  user: michael
+  group_role: admin
+
+user_group_16:
+  group: book_club
+  user: james
+  group_role: member
+
+user_group_17:
+  group: hiking_enthusiasts
+  user: emma
+  group_role: member
+
+user_group_18:
+  group: gaming_community
+  user: robert
+  group_role: member
+
+user_group_19:
+  group: book_club
+  user: david
+  group_role: member
+
+user_group_20:
+  group: gaming_community
+  user: david
+  group_role: member
+
+user_group_21:
+  group: company
+  user: olivia
+  group_role: member
+
+user_group_22:
+  group: book_club
+  user: olivia
+  group_role: member
+
+user_group_23:
+  group: company
+  user: james
+  group_role: member
+
+user_group_24:
+  group: friends_of_the_earth
+  user: james
+  group_role: member
+
+user_group_25:
+  group: company
+  user: emma
+  group_role: member
+
+user_group_26:
+  group: gaming_community
+  user: emma
+  group_role: member
+
+user_group_27:
+  group: book_club
+  user: robert
+  group_role: member
+
+user_group_28:
+  group: hiking_enthusiasts
+  user: robert
+  group_role: member
+

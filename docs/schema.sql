@@ -2,7 +2,7 @@ CREATE TABLE "users" (
   "id" uuid UNIQUE PRIMARY KEY NOT NULL,
   "name" varchar NOT NULL,
   "login" varchar NOT NULL,
-  "password" varchar NOT NULL,
+  "password_digest" varchar NOT NULL,
   "profile_picture" varchar NULL,
   "created_at" timestamp DEFAULT CURRENT_TIMESTAMP NOT NULL,
   "updated_at" timestamp NULL,
@@ -13,7 +13,7 @@ CREATE TABLE "user_groups" (
   "id" uuid UNIQUE PRIMARY KEY NOT NULL,
   "group_id" uuid NOT NULL,
   "user_id" uuid NOT NULL,
-  "role_id" uuid NOT NULL,
+  "group_role_id" uuid NOT NULL,
   "created_at" timestamp DEFAULT CURRENT_TIMESTAMP NOT NULL,
   "updated_at" timestamp NULL,
   "deleted_at" timestamp NULL
@@ -299,7 +299,7 @@ ALTER TABLE "user_groups" ADD FOREIGN KEY ("group_id") REFERENCES "groups" ("id"
 
 ALTER TABLE "user_groups" ADD FOREIGN KEY ("user_id") REFERENCES "users" ("id");
 
-ALTER TABLE "user_groups" ADD FOREIGN KEY ("role_id") REFERENCES "group_roles" ("id");
+ALTER TABLE "user_groups" ADD FOREIGN KEY ("group_role_id") REFERENCES "group_roles" ("id");
 
 ALTER TABLE "groups" ADD FOREIGN KEY ("owner_id") REFERENCES "users" ("id");
 
