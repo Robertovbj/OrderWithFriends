@@ -1,0 +1,12 @@
+#!/bin/bash
+echo "Running Brakeman security scan..."
+bin/brakeman --no-pager
+
+echo "Running JavaScript security audit..."
+bin/importmap audit
+
+echo "Running Rubocop style checks..."
+bin/rubocop
+
+echo "Running tests..."
+bin/rails db:test:prepare test test:system
